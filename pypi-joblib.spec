@@ -4,7 +4,7 @@
 #
 Name     : pypi-joblib
 Version  : 1.1.0
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/92/b9/9e3616e7e00c8165fb25175c53444533bdde05f3e974d45d9fcbbe451ee6/joblib-1.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/92/b9/9e3616e7e00c8165fb25175c53444533bdde05f3e974d45d9fcbbe451ee6/joblib-1.1.0.tar.gz
 Summary  : Lightweight pipelining with Python functions
@@ -14,9 +14,6 @@ Requires: pypi-joblib-license = %{version}-%{release}
 Requires: pypi-joblib-python = %{version}-%{release}
 Requires: pypi-joblib-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: joblib
-Provides: joblib-python
-Provides: joblib-python3
 
 %description
 |PyPi| |Azure| |ReadTheDocs| |Codecov|
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641448837
+export SOURCE_DATE_EPOCH=1649770023
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
