@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-joblib
-Version  : 1.3.0
-Release  : 43
-URL      : https://files.pythonhosted.org/packages/46/03/2e46a5894e7ac7462cb6b6299f94d46e761b3b483c6ab54bdf96eee09b00/joblib-1.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/46/03/2e46a5894e7ac7462cb6b6299f94d46e761b3b483c6ab54bdf96eee09b00/joblib-1.3.0.tar.gz
+Version  : 1.3.1
+Release  : 44
+URL      : https://files.pythonhosted.org/packages/71/f6/fbe4661d202d11c9399d6bec6b2ad381f11e9643ae25236c3904cf46a331/joblib-1.3.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/71/f6/fbe4661d202d11c9399d6bec6b2ad381f11e9643ae25236c3904cf46a331/joblib-1.3.1.tar.gz
 Summary  : Lightweight pipelining with Python functions
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -54,10 +54,10 @@ python3 components for the pypi-joblib package.
 
 
 %prep
-%setup -q -n joblib-1.3.0
-cd %{_builddir}/joblib-1.3.0
+%setup -q -n joblib-1.3.1
+cd %{_builddir}/joblib-1.3.1
 pushd ..
-cp -a joblib-1.3.0 buildavx2
+cp -a joblib-1.3.1 buildavx2
 popd
 
 %build
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1688006037
+export SOURCE_DATE_EPOCH=1688138276
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
