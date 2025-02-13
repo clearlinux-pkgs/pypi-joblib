@@ -7,7 +7,7 @@
 #
 Name     : pypi-joblib
 Version  : 1.4.2
-Release  : 50
+Release  : 51
 URL      : https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz
 Summary  : Lightweight pipelining with Python functions
